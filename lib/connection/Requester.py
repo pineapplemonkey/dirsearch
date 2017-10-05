@@ -25,7 +25,7 @@ import urllib.parse
 import urllib.error
 import time
 
-import thirdparty.requests as requests
+import requests as requests
 from .Response import *
 from .RequestException import *
 

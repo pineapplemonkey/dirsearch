@@ -23,11 +23,11 @@ import platform
 import urllib.parse
 
 from lib.utils.FileUtils import *
-from thirdparty.colorama import *
+from colorama import *
 from lib.utils.TerminalSize import get_terminal_size
 
 if platform.system() == 'Windows':
-    from thirdparty.colorama.win32 import *
+    from colorama.win32 import *
 
 
 class CLIOutput(object):
